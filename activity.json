@@ -1,0 +1,45 @@
+{
+  "name": "HelloWorld",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "ref": "github.com/DipeshTest/Test/activity/sms",
+  "description": "activity description",
+  "author": "Dipesh",
+  "homepage": "https://github.com/DipeshTest/Test/tree/master/activity/sms",
+  "inputs":[
+    {
+		"name": "accountSid",
+		"type": "string"
+	},
+	{
+		"name": "authToken",
+		"type": "string"
+	},
+	{
+		"name": "urlString",
+		"type": "string"
+	},
+	{
+		"name": "msgData",
+		"type": "string"
+	},
+	{
+		"name": "to",
+		"type": "string"
+	},
+	{
+		"name": "from",
+		"type": "string"
+	}
+  ],
+  "outputs": [
+    {
+      "name": "result",
+      "type": "string"
+    },
+	{
+      "name": "error",
+      "type": "string"
+    }
+  ]
+}
